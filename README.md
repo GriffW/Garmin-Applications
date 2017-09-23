@@ -35,10 +35,13 @@ In Progress
 	- [x] Fenix Chronos/5S Series Supported Added
 	- [ ] Fenix 5/5X Series Supported Added
 
-- Bike Pace Fields 1.1.0
-	> This update will change the units of the pace based on the device settings
-
 - Simple Info Face Version 1.2.0
 	- [ ] Connect IQ 2.0 always on hand implemented
 	
 - Unnamed application launch 
+
+
+Completed
+-
+- Bike Pace Fields 1.1.0
+	> This update will change the units of the pace based on the device settings
