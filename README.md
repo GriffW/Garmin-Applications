@@ -27,13 +27,6 @@ Launched Applications
 
 In Progress
 -
-- Stopwatch + Timer Version 2.0.0
-	> This update is done from scratch, adding new features and a whole lot of new supported devices
-	- [x] Major Changes Implemented
-	- [x] FR 630 Supported Added
-	- [x] Fenix 3 Series Supported Added
-	- [x] Fenix Chronos/5S Series Supported Added
-	- [ ] Fenix 5/5X Series Supported Added
 
 - Simple Info Face Version 1.2.0
 	- [ ] Connect IQ 2.0 always on hand implemented
@@ -45,3 +38,12 @@ Completed
 -
 - Bike Pace Fields 1.1.0
 	> This update will change the units of the pace based on the device settings
+	
+- Stopwatch + Timer Version 2.0.0
+	> This update is done from scratch, adding new features and a whole lot of new supported devices
+	- [x] Major Changes Implemented
+	- [x] FR 630 Supported Added
+	- [x] Fenix 3 Series Supported Added
+	- [x] Fenix Chronos/5S Series Supported Added
+	- [x] Fenix 5/5X Series Supported Added	
+	
