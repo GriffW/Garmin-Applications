@@ -1,49 +1,521 @@
-# Garmin-Applications
+# Garmin Applications
 This is an informational page for my Garmin Projects
 
 My Garmin Developer page can be found [here](https://apps.garmin.com/en-US/developer/d44894eb-c47f-4268-b66c-05665213045d/apps)
 
 Launched Applications
 -
+### Applications
+* [GPS Metrics App](https://github.com/GriffW/Garmin-Applications#GPS-Metrics-App)					
+* [Stopwatch + Timer](https://github.com/GriffW/Garmin-Applications#Stopwatch-+-Timer)						
 
-- Applications
-	- [GPS Metrics App](https://apps.garmin.com/en-US/apps/e3d33aa5-7d07-4670-a754-9ad7de50562e)						
-	- [Stopwatch + Timer](https://apps.garmin.com/en-US/apps/e31d8308-674a-403b-813f-298ce28c9eab)						
+### Data Fields
+* [Acceleration Field](https://apps.garmin.com/en-US/apps/b1d5b4a6-92dd-4e9e-b945-cf8f34db179c)					
+* [Bike Average Pace Field](https://apps.garmin.com/en-US/apps/5bcd8fd2-b151-421f-bb7b-d1bb6b1e65f1)			
+* [Bike Pace Field](https://apps.garmin.com/en-US/apps/37f82059-0260-4750-b260-e2d6dbf491a3)					
+* [One Field](https://apps.garmin.com/en-US/apps/33528a69-baf9-45ff-9a8a-8bb32bd391a3) 						
 
-- Data Fields
-	- [Acceleration Field](https://apps.garmin.com/en-US/apps/b1d5b4a6-92dd-4e9e-b945-cf8f34db179c)					
-	- [Bike Average Pace Field](https://apps.garmin.com/en-US/apps/5bcd8fd2-b151-421f-bb7b-d1bb6b1e65f1)			
-	- [Bike Pace Field](https://apps.garmin.com/en-US/apps/37f82059-0260-4750-b260-e2d6dbf491a3)							
-	- [One Field](https://apps.garmin.com/en-US/apps/33528a69-baf9-45ff-9a8a-8bb32bd391a3) 									
+### Watch Faces
+* [Modern Digital](https://apps.garmin.com/en-US/apps/6f8a64a8-754f-4cfd-bf6c-0e6d8a13784e)					
+* [Simple Info Analog](https://apps.garmin.com/en-US/apps/a2cf87c3-3782-4860-bcbf-7863683b5336)					
+* [Simple Info Face](https://apps.garmin.com/en-US/apps/91014c51-68a9-49b0-b3b3-00db139cfd9b) 					
 
-- Watch Faces
-	- [Modern Digital](https://apps.garmin.com/en-US/apps/6f8a64a8-754f-4cfd-bf6c-0e6d8a13784e)							
-	- [Simple Info Analog](https://apps.garmin.com/en-US/apps/a2cf87c3-3782-4860-bcbf-7863683b5336)					
-	- [Simple Info Face](https://apps.garmin.com/en-US/apps/91014c51-68a9-49b0-b3b3-00db139cfd9b) 						
-
-- Widgets	
-	- [GPS Metrics](https://apps.garmin.com/en-US/apps/42155349-ebb2-45c3-930e-51bbea912fa6)							
+### Widgets	
+* [GPS Metrics](https://apps.garmin.com/en-US/apps/42155349-ebb2-45c3-930e-51bbea912fa6)						
 
 
-In Progress
+Work Status
 -
+### Work In Progress
+ * Unnamed data screen
+ * Simple Info Face Version 1.2.0
+	* [ ] Connect IQ 2.0 always on hand implemented
 
-- Simple Info Face Version 1.2.0
-	- [ ] Connect IQ 2.0 always on hand implemented
-	
-- Unnamed application launch 
-
-
-Completed
--
-- Bike Pace Fields 1.1.0
+### Work Completed
+* Bike Pace Fields 1.1.0
 	> This update will change the units of the pace based on the device settings
-	
-- Stopwatch + Timer Version 2.0.0
+* Stopwatch + Timer Version 2.0.0
 	> This update is done from scratch, adding new features and a whole lot of new supported devices
-	- [x] Major Changes Implemented
-	- [x] FR 630 Supported Added
-	- [x] Fenix 3 Series Supported Added
-	- [x] Fenix Chronos/5S Series Supported Added
-	- [x] Fenix 5/5X Series Supported Added	
+	* [x] Major Changes Implemented
+	* [x] FR 630 Supported Added
+	* [x] Fenix 3 Series Supported Added
+	* [x] Fenix Chronos/5S Series Supported Added
+	* [x] Fenix 5/5X Series Supported Added	
 	
+# Applications
+GPS Metrics App
+-
+[Store Link](https://apps.garmin.com/en-US/apps/e3d33aa5-7d07-4670-a754-9ad7de50562e)
+
+### Application Info
+GPS Metrics shows you, at a glance, your current direction, heading, speed, g-force, and Coordinates. 
+  
+All measures are accessed from the same screen. 
+The units of altitude, coordinates, and speed can be chosen. 
+There is a quick unit charger, as well as the option to show the UTC time instead of the local time. 
+The current metrics can be saved for later.
+These are configurable in the in-app menu, which is accessed by the device menu button (many devices use the long press on the up button as the menu button).  
+ - The elevation options are: meters (m), feet (ft), and miles (mi). 
+ - The coord options are: degree (DEG), degree minutes (DEG MIN), degree minutes seconds (DEG MIN SEC), and military grid reference system(MGRS) 
+ - The speed options are: meters per second (m/s), kilometers per hour (km/h), miles per hour (mph), knots (knots), and mach number (mach). 
+ - The select button functions as a unit changer. It can switch through all of the units of a specific field (altitude, coords, or speed). 
+ - The "g force" only takes into account acceleration in the direction of your heading. The actual g force you might be experiencing might be higher. 
+ - The save option is accessed from the in-app menu. This allows to metrics to be saved to the device, and he later viewed in Garmin Express, or the Garmin Mobile app.
+  
+I have published an widget version of this widget than can be found here: 
+https://apps.garmin.com/en-US/apps/42155349-ebb2-45c3-930e-51bbea912fa6 
+  
+#### Layout
+- Cardinal Direction (Top Right) 
+- Heading (Top Right) 
+- Altitude (Top Left) 
+- Speed (Bottom Left) 
+- Acceleration (Bottom Right) 
+- GPS Coordinates (Middle) 
+- Time (Top) 
+  
+### Version History
+Version 2.0.2 - 7/16/2017
+- [Added] FR935 support
+
+Version 2.0.1 - 6/19/2017
+- [Fixed] no Fenix heading data 
+
+Version 2.0.0 - 6/15/2017
+- [Modified] Entire UI 
+- [Added] unit changer
+- [Removed] coords screen
+- [Added] mach number speed unit
+- [Added] UTC time option
+- [Added] full Fenix support (1.0 and 2.0 models)
+- Decreased memory usage by ~40%
+
+Version 1.0.0 - 5/23/2016
+- Initial Release 
+
+
+Stopwatch + Timer
+-
+[Store Link](https://apps.garmin.com/en-US/apps/e31d8308-674a-403b-813f-298ce28c9eab)
+
+### Application Info
+Stopwatch + Timer gives you both tools in one functional package. 
+
+#### Stopwatch
+- The Stopwatch face has a precision of a tenth of second.
+- The Laps view has a precision of milliseconds.
+- The Lap view can bee seen even if the stopwatch is currently running.
+- The watch stores 80 laps. All of which can be saved to the watch, and viewed in the laps screen by pressing the enter button
+- On a new lap, a screen is shown for a short time that only shows the lap time and lap number. This can be turned off.
+- Shows current clock time.
+
+#### Stopwatch Controls
+- Enter: Starts and stops stopwatch
+- Back: Clears stopwatch, or closes the app if stopwatch is cleared and paused
+- Down: laps stopwatch or switches to timer if the stopwatch is paused.
+- Up: Switches to laps view
+
+#### Timer
+- Two timers can be run simultaneously
+- Stopwatch can be run while timers are active. But there is currently no timer done alert if you are on a different page than the timer.
+- The timer has a maximum duration of 24 hours and 59 minutes.
+- The smallest increment is a second.
+- the display shows the time remaining down to the second.
+- Shows current clock time.
+
+#### Timer Controls
+- Enter: Pauses or starts selected timer
+- Back: Clears timer, or closes the app if both timers are cleared and paused
+- Down: Switches between timer
+- Up: Switches back to timer
+
+#### Laps
+- Shows current laps and elapsed time on the stopwatch
+- Saved laps are accessed on this page by pressing the enter/select button
+
+#### Laps Controls
+- Enter: Switches between saved and current laps
+- Back: Returns back to stopwatch screen
+- Down: Increments page number
+- Up: Decrements page number
+
+#### Menu
+- Save Laps: on clicking this option the watch's laps will be send to Garmin Connect and can be found under Applications to Stopwatch + Timer to Settings.
+- Accent Color: The accent color (default: white) can be changed through out the app to any of the other supported colors, except black. The reason that full color customization is not supported is because: In this app readability is more important than customization.
+- Tones: Tones can be turned on or off here for the whole app.
+- Vibrations: Vibrations can be turned on or off here for the whole app.
+- Lap Screen: The lap screen that shows on a new lap can be turned off here. It might what to be turn off if laps need to be taken in quick succession.
+
+### Version History
+Version 2.0.1 - 10/11/2017
+- [Fixed] Main Menu ailgnment issues on larger watches Fenix 5(x), etc...
+- [Modifed] App Icon changes
+
+Version 2.0.0 - 9/24/2017
+- [Modified] Rewrote entire app from ground up
+- [Added] Support for 2 timers
+- [Added] Select seconds for timers
+- [Modified] Controls layout
+- [Modified] Laps are saved to device and can be accessed from laps menu
+- [Added] Support for Fenix 3 family
+- [Added] Support for Fenix 5 family
+
+Version 1.2.5 - 12/26/2016
+- Fixed crash on changing some settings
+
+Version 1.2.4 - 12/15/2016
+- Corrected button icons on 735XT
+
+Version 1.2.3 - 12/15/2016
+- Added support for 80 Laps
+- Reduce memory usage
+- Improved stability
+
+Version 1.2.2 - 6/27/2016
+- fixed crash on lap time being over an hour
+
+Version 1.2.1 - 6/13/2016
+- fixed an issue with changing the display type when hours is not 0
+
+Version 1.2.0 - 6/12/2016
+- Possible fix for the crash on startup issue. I won't know if it's fixed if I dont hear from you guys
+- Added support for FR735XT
+- A couple FR630 interface changes
+- Timer now remembers last time set
+- Added confirmation screen for exporting laps
+- Added date and time to export screen
+
+Version 1.1.0 - 4/22/2016
+- Overhauled entire Input handling system. This was to address the limited support of the FR630. The FR630 experience is much more intuitive now. 
+
+Version 1.0.0 - 4/22/2016
+- Initial Release 
+
+
+# Data Fields
+Acceleration Field
+-
+[Store Link](https://apps.garmin.com/en-US/apps/b1d5b4a6-92dd-4e9e-b945-cf8f34db179c)
+
+### Application Info
+This field shows the acceleration in your current direction of travel. The actual acceleration will probably be higher, since I can only measure acceleration in one dimension. The field shows the coefficient of  the acceleration of gravity (g). Which is 9.81m/s^2 or 32.2 ft/s^2. So a 1.54g represents an acceleration of 1.54 times the acceleration of gravity. 
+
+
+### Version History
+Version 1.0 - 4/11/16
+- Initial Launch
+
+Bike Average Pace Field
+-
+[Store Link](https://apps.garmin.com/en-US/apps/5bcd8fd2-b151-421f-bb7b-d1bb6b1e65f1)
+
+### Application Info
+This field shows the average pace. This is the same as the pace metrics in Run mode, except that it does not round to a factor of 5. These pace metrics are not option in the Bike mode, so this field along with my Bike Pace Field(https://apps.garmin.com/en-US/apps/37f82059-0260-4750-b260-e2d6dbf491a3), makes these metrics available outside of Run mode. 
+
+
+### Version History
+Version 1.1.0 - 9/23/16
+- Supports metric units
+- Supports all Connect IQ devices at this time
+
+Version 1.0 - 5/24/16
+- Initial Launch
+
+
+Bike Pace Field
+-
+[Store Link](https://apps.garmin.com/en-US/apps/37f82059-0260-4750-b260-e2d6dbf491a3)
+
+### Application Info
+This field shows the pace. This is the same as the pace metrics in Run mode, except that it does not round to a factor of 5. These pace metrics are not option in the Bike mode, so this field along with my Bike Average Pace Field(https://apps.garmin.com/en-US/apps/5bcd8fd2-b151-421f-bb7b-d1bb6b1e65f1), makes these metrics available outside of Run mode. 
+
+
+### Version History
+Version 1.1.0 - 9/23/16
+- Supports metric units
+- Supports all Connect IQ devices at this time
+
+Version 1.0 - 5/25/16
+- Initial Launch
+ 
+ 
+One Field
+-
+[Store Link](https://apps.garmin.com/en-US/apps/33528a69-baf9-45ff-9a8a-8bb32bd391a3)
+
+### Application Info
+One Field allows for more fields that Garmin allows by default.
+One Field is comprised of the following things:
+- GPS Signal Indicator
+- Local Time
+- Current Cardinal Direction
+- 6 or 3 Custom fields
+- Steps
+- Total Activity Timer
+- Current Battery Percentage
+- Bar
+
+#### Custom Fields
+| **Field** | **Field Label** |
+| -- | -- |
+| Distance | (distance unit) |
+| Current Lap Distance | (distance unit) |
+| Immediate Pace | IP |
+| Average Pace | P |
+| Current Lap Pace | P |
+| Immediate Speed | S |
+| Average Speed | AS |
+| Max Speed | MS |
+| Current Lap Time | lap |
+| Last Lap Time	| LL |
+| Immediate Heart Rate | HR |
+| Average Heart Rate | AHR |
+| Elevation | (elevation unit) |
+| Calories | cal |
+| Laps | lap|
+
+#### Other Options
+Invert Colors: Inverts the colors of the whole field.
+Only 3 Fields: Changes the layout of the screen to only show 3 fields instead of 6.
+Speed units: The 3 speed units supported are m/s, kph, and mph.
+Bar: The bar can either reflect how much battery is left, or the current step goal progress.
+
+#### Notes
+Laps created in Garmin workouts do not work.
+This is a Garmin issue: https://forums.garmin.com/showthread.php?359067-Datafield-OnTimerLap-with-workout-file#post901539
+Every data field (not app, data field) that handles lap metrics will also have this issue
+
+### Version History
+Version 1.0 - 4/11/16
+- Initial Launch
+
+# Watch Face
+Modern Digital
+-
+[Store Link](https://apps.garmin.com/en-US/apps/6f8a64a8-754f-4cfd-bf6c-0e6d8a13784e)
+
+### Application Info
+#### Features
+- Time: Shows current time. 12 hour, 24 hour, and leading zero formats supported. [Color customizable]
+- AM/PM Seconds: AM/PM is show while in 12 hour mode. This can be disabled in 12 hour mode This is also where seconds will be show if they are enabled in the settings, and the watch is active (on some devices).* [Color customizable] [Always-On feature]
+- Date: Shows current date with 3 formats. [Day of Week] [Month] [Date], [Day of Week] [Date] [Month], [Date] [Day of Week] [Month], [Day of Week] [Date], [Date] [Day of Week]. [Color customizable]
+- Steps: Shows current steps, can be disabled in the settings. [Color customizable]
+- Battery: Shows current battery as a percentage, can be disabled in the settings. [Color customizable]
+- Bars: There are 2 customizable bars on this watch face. Each can be controlled independently with the choices of hiding the bar, showing steps progress, showing battery, or showing the move bar. [Color customizable]
+- Bluetooth Icon: This Icon changes from gray to white (or black in the cause of a white primary color) and is surrounded by the accent color, when the watch is connected to a phone.
+- Do not disturb icon: This icon will be shown when do not disturb is active (only supported on Fenix 2.0 devices). When active, this status is alwasy shown over notifications
+- Notification Icon: This Icon changes from gray to white (or black in the cause of a white primary color) and is surrounded by the accent color, when there are notifications on the connected device.
+- Alarm Icon: This Icon changes from gray to white (or black in the cause of a white primary color) and is surrounded by the accent color, when there are alarms active on the watch.
+- Background: The default background is black carbon fiber, but can be removed in the settings, for plain black. 
+- Seconds Bar: This bars show a graphical view of the current seconds, which can be disabled in the settings, and is off by default. [Color customizable] [Always-On feature]
+- Primary Color: This color makes up the outlining of the two rounded rectangles and the color of the various status icons. [Color customizable]
+- Secondary Color: This color makes up the outlining of the two customizable bars. [Color customizable]
+
+#### ATTENTION
+
+****The seconds will only display if the watch is active. Active is when the watch is gestured to be looked at (the exact same way the wrist-turn backlight option works), or when the watch face is switched to. Active means that your watch face updates every second as opposed to every minute. For this reason the seconds are only displayed when active. Otherwise if the seconds are left up that info will be inaccurate. This is the only fluid way to show seconds. I do think that it would make a lot of sense to have button presses/backlight also trigger the active mode, but this is out of my hands. So please do not email me and ask why seconds won't stay on.****
+
+
+### Version History
+Version 1.1.0 - 10/17/2017
+- [Added] Support for Fenix 2.0 Devices
+- [Added] Always on seconds, and seconds bar for supported devices (Fenix 2.0 Devices)
+- [Added] Do not disturb icon, for supported devices (Fenix 2.0 Devices)
+- [Added] Option to disable AM/PM label for 12hr formats
+- [Added] 2 new date formats: "Jan 01", "01 Jan"
+- [Modified] Slight restructuring of status icon area
+
+Version 1.0.3 - 4/5/2017
+- [Fixed] Date formats properly added
+
+Version 1.0.2 - 3/22/2017
+- [Modified] Changed default color scheme
+
+Version 1.0.1 - 3/22/2017
+- [Removed] Fenix Chronos support removed since it only has 32kB of memory for the watch face. 50% of the rest of the fenix line
+
+Version 1.0.0 - 3/22/2017
+- Initial Launch
+
+
+Simple Info Analog
+-
+[Store Link](https://apps.garmin.com/en-US/apps/a2cf87c3-3782-4860-bcbf-7863683b5336)
+
+### Application Info
+This watch face contains 2 base styles:
+- Digital Analog
+- Performance Analog
+
+The Digital Analog is the most customizable style.
+- The top holds the status bar, which shows Bluetooth, notification, and alarm status.
+- There are 2 bars on either side of the watch that can be turned off, or show step progress, move bar, or battery status. The colors of these bars can be changed. 
+- The color of these bars can also change if its value is under 20% of the step goal or battery life.
+- Icons for the step goal, or batter can be turned too.
+- The battery and step labels can be turned off, and their color can be changed.
+- The date (Date format: [Day of Week] [Month] [Date]) sits below, and the color can be changed.
+- Alternate formats are [Day of Week] [Date] [Month] and [Date] [Day of Week] [Month]. 
+
+The Performance Analog takes a lot of points from the new Cadillac Cluster, and integrates it into this style.
+- The top holds the status bar, which shows Bluetooth, notification, and alarm status.
+- On the sides are 2 gauges. What they display cannot be changed, and they can be turned off. Their colors can be changed.
+- The battery and step labels can be turned off, and their color can be changed.
+- The date (Date format: [Day of Week] [month] [date]) sits below, and the color can be changed.
+
+The watch hand color can also be changed, and the second hand color can be changed or disabled.
+
+#### ATTENTION
+- There are plans to add the new always on second hand (FOR SUPPORTED DEVICES). It will take more time than expected to implement this feature, it is not in this 1.1.0 patch.
+
+- ****The seconds will only display if the watch is active. Active is when the watch is gestured to be looked at (the exact same way the wrist-turn backlight option works), or when the watchface is switched to. Active means that your watch face updates every second as opposed to every minute. For this reason the seconds are only displayed when active. Otherwise if the seconds are left up that info will be inaccurate. This is the only fluid way to show seconds. I do think that it would make a lot of sense to have button presses/backlight also trigger the active mode, but this is out of my hands. So please do not email me and ask why seconds won't stay on.****
+
+
+### Version History
+Version 1.1.1 - 7/18/2017
+- [Modified] Background system: The app size is much larger than it was in 1.1.0, but this allows for much smoother performance of loading and unloading of the face, on 1.0 devices (FR230, Fenix 3, etc.). Connect IQ 2.0 devices should not be affected by this change, besides the larger download size.
+
+Version 1.1.0 - 7/9/2017
+- [Note] There are plans to add the new always on second hand (FOR SUPPORTED DEVICES). It will take more time than expected to implement this feature, it is not in this 1.1.0 patch.
+- [Added] Support for Fenix 5 & 5X 
+- [Added] Support for Fenix 5S & Chronos
+- [Added] Support for Forerunner 935
+- [Removed] Face image, drawn entirely on device
+- [Modified] Fenix 1.0 fonts used
+- [Added] Full hand coloring
+- [Added] Invert option
+- [Added] Bar Icon option
+- [Added] Low percentage bar color (less than 20%)
+- [Added] Option to disable gauges on performance face
+- [Modified] Moved some coord calculations off onUpdate(), should improve battery life
+
+Version 1.0.2 - 3/18/2017
+- [Fixed] Right steps bar wraps around at low step count
+- [New Feature] Added multiple date formats
+
+Version 1.0.1 - 8/17/2016
+- [Fixed] Performance style step gauge resets after step goal
+- [Fixed] Typo in settings
+
+Version 1.0.0 - 8/7/2016
+- Initial Launch
+
+Simple Info Face
+-
+[Store Link](https://apps.garmin.com/en-US/apps/91014c51-68a9-49b0-b3b3-00db139cfd9b#0)
+
+### Application Info
+Features:
+- 12/24 hour support with accented hour color
+- Date format: Day of Week, Month, Date; Day of Week, Date, Month; Date, Day of Week, Month
+- Shows Seconds*
+- Battery and percent icon, color changes with charge
+- Bluetooth icon, blue when connected, gray when not
+- Alarm icon, displayed when there is an alarm active
+- Notification icon, displays number of notifications at a glance
+- Shows Steps
+- Shows Move Bar OR Steps to goal progress
+- Hour, Minute, AM/PM, Date, Seconds, Steps, and Bar color can all be independently changed through the settings.
+
+#### Notes
+
+- *The seconds will only display if the watch is active. Active is when the watch is gestured to be looked at (the exact same way the wrist-turn backlight option works), or when the watchface is switched to. Active means that your watch face updates every second as opposed to every minute. For this reason the seconds are only displayed when active. Otherwise if the seconds are left up that info will be inaccurate. This is the only fluid way to show seconds. I do think that it would make a lot of sense to have button presses/backlight also trigger the active mode, but this is out of my hands.
+
+- I probably wont be adding a move bar, it doesn't really fit into the style.
+
+
+### Version History
+Version 1.3.2 - 3/18/2017
+- [New Feature] Added multiple date formats
+
+Version 1.3.1 - 6/12/2016
+- Added Seamless Steps Mode
+
+Version 1.3.0 - 6/12/2016
+- Added missing pink and purple color selections
+- Added move bar (only one bar supported at a time)
+- Added steps to goal progress bar (only one bar supported at a time)
+- Added support for: FR735XT
+- Changed location of time when using 24 Hour time format
+
+Version 1.2.1 - 4/4/2016
+- Status icons off center, Fixed
+- Date off center, Fixed
+
+Version 1.2.0 - 3/26/2016
+- Blue and Dark Blue were labeled incorrectly, actually fixed now, for real this time
+- Added Optional Seconds to watchface
+- Seconds color and Seconds option added to the Options menu
+- Resized AM/PM label
+
+Version 1.1.2 - 3/15/2016
+- Blue and Dark Blue were labeled incorrectly, Fixed
+
+Version 1.1 - 3/15/2016
+- Changed to layout, loads quicker
+- Icons more uniformly spaced
+- Added steps
+- Hour, Minute, AM/PM, Date, and Steps color can all be independently changed through the settings.
+- Steps can be hidden through the settings
+
+Version 1.0 - 3/7/2016
+- Initial Launch
+
+# Widgets
+GPS Metrics
+-
+[Store Link](https://apps.garmin.com/en-US/apps/42155349-ebb2-45c3-930e-51bbea912fa6)
+
+### Application Info
+GPS Metrics shows you, at a glance, your current direction, heading, speed, g-force, and Coordinates. 
+  
+All measures are accessed from the same screen. 
+The units of altitude, coordinates, and speed can be chosen. 
+There is a quick unit charger, as well as the option to show the UTC time instead of the local time. 
+These are configurable in Settings in Garmin Mobile or Garmin Express. 
+ - The elevation options are: meters (m), feet (ft), and miles (mi). 
+ - The coord options are: degree (DEG), degree minutes (DEG MIN), degree minutes seconds (DEG MIN SEC), and military grid reference system(MGRS) 
+ - The speed options are: meters per second (m/s), kilometers per hour (km/h), miles per hour (mph), knots (knots), and mach number (mach). 
+ - The select button functions as a unit changer. It can switch through all of the units of a specific field (altitude, coords, or speed). 
+ - The "g force" only takes into account acceleration in the direction of your heading. The actual g force you might be experiencing might be higher. 
+  
+I have published an app version of this widget than can be found here: 
+https://apps.garmin.com/en-US/apps/e3d33aa5-7d07-4670-a754-9ad7de50562e 
+
+#### Layout
+- Cardinal Direction (Top Right) 
+- Heading (Top Right) 
+- Altitude (Top Left) 
+- Speed (Bottom Left) 
+- Acceleration (Bottom Right) 
+- GPS Coordinates (Middle) 
+- Time (Top) 
+
+### Version History
+Version 2.0.1 - 6/19/2017
+- [Fixed] no Fenix heading data 
+
+Version 2.0.0 - 6/15/2017
+- [Modified] Entire UI 
+- [Added] unit changer
+- [Removed] coords screen
+- [Added] mach number speed unit
+- [Added] UTC time option
+- [Added] full Fenix support (1.0 and 2.0 models)
+- Decreased memory usage by ~40%
+
+Version 1.1.8.2 - 9/28/2016 
+- Added 735XT support (Again) 
+  
+Version 1.1.7 - 9/19/2016 
+- Added 735XT support 
+  
+Version 1.1.6 - 5/22/2016 
+- Widget now stable 
+  
+Version 1.1.0 - 5/22/2016 
+- Removed current coordinates system 
+- Added new screen accessed by the select button that show coordinates 
+- Added Knots 
+  
+Version 1.0.0 - 4/4/2016 
+- Initial Release 
