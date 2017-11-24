@@ -145,8 +145,19 @@ Stopwatch + Timer gives you both tools in one functional package.
 - Tones: Tones can be turned on or off here for the whole app.
 - Vibrations: Vibrations can be turned on or off here for the whole app.
 - Lap Screen: The lap screen that shows on a new lap can be turned off here. It might what to be turn off if laps need to be taken in quick succession.
+- Power Mode: There are 4 power modes introduced. These help save battery if absolute immediate precision is not required. The record of time is still accurate. The stopwatch, and timer are still percise and correct. But they don't update as frequently. If you want to update the display manually: you can press any button, but the backlight button.
+	- Normal [P0]: This behaves the exact same as the app has in the past. The real changes are in the following states.
+	- Low Power [P1]: The stopwatch now updates every second, as opposed to every tenth of a second. The time recorded is still accurate to the millisecond.
+	- Ultra Low Power [P2]: The stopwatch and timer now updates every minute. The timer still ends at the original time set.
+	- Endurance [P3]: The stopwatch does not update until a button is pressed. The timer updates every minute, and still ends at the original time set.
+
+- Device Info: Shows phone connection status, notification count, do not disturb status, alarm count, the current CIQ SDK  version number, and the current battery level. This screen updates when the enter button is pressed.
 
 ### Version History
+Version 2.1.0 - 11/24/2017
+- [Added] Power states. Check description for full info 
+- [Added] Device Info. Allows you to check things such as battery, and phone status, without having to leave the app.
+
 Version 2.0.1 - 10/11/2017
 - [Fixed] Main Menu ailgnment issues on larger watches Fenix 5(x), etc...
 - [Modifed] App Icon changes
