@@ -6,22 +6,22 @@ My Garmin Developer page can be found [here](https://apps.garmin.com/en-US/devel
 Launched Applications
 -
 ### Applications
-* [GPS Metrics App](https://github.com/GriffW/Garmin-Applications#GPS-Metrics-App)					
-* [Stopwatch + Timer](https://github.com/GriffW/Garmin-Applications#Stopwatch-+-Timer)						
+* [GPS Metrics App](https://github.com/GriffW/Garmin-Applications#gps-metrics-app)					
+* [Stopwatch + Timer](https://github.com/GriffW/Garmin-Applications#stopwatch--timer)						
 
 ### Data Fields
-* [Acceleration Field](https://apps.garmin.com/en-US/apps/b1d5b4a6-92dd-4e9e-b945-cf8f34db179c)					
-* [Bike Average Pace Field](https://apps.garmin.com/en-US/apps/5bcd8fd2-b151-421f-bb7b-d1bb6b1e65f1)			
-* [Bike Pace Field](https://apps.garmin.com/en-US/apps/37f82059-0260-4750-b260-e2d6dbf491a3)					
-* [One Field](https://apps.garmin.com/en-US/apps/33528a69-baf9-45ff-9a8a-8bb32bd391a3) 						
+* [Acceleration Field](https://github.com/GriffW/Garmin-Applications#acceleration-field)					
+* [Bike Average Pace Field](https://github.com/GriffW/Garmin-Applications#bike-average-pace-field)			
+* [Bike Pace Field](https://github.com/GriffW/Garmin-Applications#bike-pace-field)					
+* [One Field](https://github.com/GriffW/Garmin-Applications#one-field) 						
 
 ### Watch Faces
-* [Modern Digital](https://apps.garmin.com/en-US/apps/6f8a64a8-754f-4cfd-bf6c-0e6d8a13784e)					
-* [Simple Info Analog](https://apps.garmin.com/en-US/apps/a2cf87c3-3782-4860-bcbf-7863683b5336)					
-* [Simple Info Face](https://apps.garmin.com/en-US/apps/91014c51-68a9-49b0-b3b3-00db139cfd9b) 					
+* [Modern Digital](https://github.com/GriffW/Garmin-Applications#modern-digital)					
+* [Simple Info Analog](https://github.com/GriffW/Garmin-Applications#simple-info-analog)					
+* [Simple Info Face](https://github.com/GriffW/Garmin-Applications#simple-info-face) 					
 
 ### Widgets	
-* [GPS Metrics](https://apps.garmin.com/en-US/apps/42155349-ebb2-45c3-930e-51bbea912fa6)						
+* [GPS Metrics](https://github.com/GriffW/Garmin-Applications#gps-metrics)						
 
 
 Work Status
