@@ -213,7 +213,11 @@ This field shows the acceleration in your current direction of travel. The actua
 
 
 ### Version History
-Version 1.0 - 4/11/16
+Version 1.1.0 - 12/5/17
+- [Added] support for a lot of devices
+- [Modified] put unit "g" in data field, previously in label
+
+Version 1.0.0 - 4/11/16
 - Initial Launch
 
 Bike Average Pace Field
