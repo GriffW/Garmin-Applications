@@ -13,7 +13,8 @@ Launched Applications
 * [Acceleration Field](https://github.com/GriffW/Garmin-Applications#acceleration-field)					
 * [Bike Average Pace Field](https://github.com/GriffW/Garmin-Applications#bike-average-pace-field)			
 * [Bike Pace Field](https://github.com/GriffW/Garmin-Applications#bike-pace-field)					
-* [One Field](https://github.com/GriffW/Garmin-Applications#one-field) 						
+* [One Field](https://github.com/GriffW/Garmin-Applications#one-field) 	
+* [Pace Histogram](https://github.com/GriffW/Garmin-Applications#one-field)
 
 ### Watch Faces
 * [Modern Digital](https://github.com/GriffW/Garmin-Applications#modern-digital)					
@@ -211,7 +212,6 @@ Acceleration Field
 ### Application Info
 This field shows the acceleration in your current direction of travel. The actual acceleration will probably be higher, since I can only measure acceleration in one dimension. The field shows the coefficient of  the acceleration of gravity (g). Which is 9.81m/s^2 or 32.2 ft/s^2. So a 1.54g represents an acceleration of 1.54 times the acceleration of gravity. 
 
-
 ### Version History
 Version 1.1.0 - 12/5/17
 - [Added] support for a lot of devices
@@ -226,7 +226,6 @@ Bike Average Pace Field
 
 ### Application Info
 This field shows the average pace. This is the same as the pace metrics in Run mode, except that it does not round to a factor of 5. These pace metrics are not option in the Bike mode, so this field along with my Bike Pace Field(https://apps.garmin.com/en-US/apps/37f82059-0260-4750-b260-e2d6dbf491a3), makes these metrics available outside of Run mode. 
-
 
 ### Version History
 Version 1.1.0 - 9/23/16
@@ -243,7 +242,6 @@ Bike Pace Field
 
 ### Application Info
 This field shows the pace. This is the same as the pace metrics in Run mode, except that it does not round to a factor of 5. These pace metrics are not option in the Bike mode, so this field along with my Bike Average Pace Field(https://apps.garmin.com/en-US/apps/5bcd8fd2-b151-421f-bb7b-d1bb6b1e65f1), makes these metrics available outside of Run mode. 
-
 
 ### Version History
 Version 1.1.0 - 9/23/16
@@ -303,6 +301,36 @@ Every data field (not app, data field) that handles lap metrics will also have t
 ### Version History
 Version 1.0 - 4/11/16
 - Initial Launch
+
+
+Pace histogram
+-
+Store Link coming soom
+
+### Application Info
+Pace histogram allows you to see a live histogram of pace, during an activity, over a certain period.
+
+This graphical information is usually only seen in Garmin Connect, after the completion of an activity. Now you can see how your pace is changing with great accuracy over a certain interval.
+The default interval, or resolution, is 1 mile.
+This can be reconfigured as any integer, miles or kilometers.
+This histogram stores 50 points of data, regardless of the resolution chosen. There is some smoothing done on the incoming pace data to eliminate large pace spikes.
+The upper and lower y bounds of the histogram are set by the fastest and slowest pace in the 50 points currently  show in the histogram. 
+
+### Options
+* Distance Scope: The histogram will show you the pace data for the last x miles or kilometers.
+* Distance Units: This defines what units are to be used with the distance scope above. Feel free to mix and match metric and imperial. It doesn't matter which are the system units.
+* Show Min/Max: This option will show the min and max pace that the graph is constrained by.
+
+*****NOTE*****
+Changes cannot be made to [Distance Scope] and [Distance Units] settings during an activity. To have the data field reflect the new settings, exit out of the activity screen completely, and relaunch.
+
+#### Notes
+Changes cannot be made to [Distance Scope] and [Distance Units] settings during an activity. To have the data field reflect the new settings, exit out of the activity screen completely, and relaunch.
+
+### Version History
+Version 1.0.0 - 12/27/2017
+- [Note] Initial Release
+
 
 # Watch Face
 Modern Digital
