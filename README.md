@@ -303,7 +303,7 @@ Version 1.0 - 4/11/16
 - Initial Launch
 
 
-Pace histogram
+Pace Histogram
 -
 [Store Link](https://apps.garmin.com/en-US/apps/5da3c791-c577-4778-a49f-fcb9a9b7fe77)
 
