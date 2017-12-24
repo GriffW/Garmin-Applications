@@ -14,7 +14,7 @@ Launched Applications
 * [Bike Average Pace Field](https://github.com/GriffW/Garmin-Applications#bike-average-pace-field)			
 * [Bike Pace Field](https://github.com/GriffW/Garmin-Applications#bike-pace-field)					
 * [One Field](https://github.com/GriffW/Garmin-Applications#one-field) 	
-* [Pace Histogram](https://github.com/GriffW/Garmin-Applications#one-field)
+* [Pace Histogram](https://github.com/GriffW/Garmin-Applications#pace-histogram)
 
 ### Watch Faces
 * [Modern Digital](https://github.com/GriffW/Garmin-Applications#modern-digital)					
@@ -320,9 +320,6 @@ The upper and lower y bounds of the histogram are set by the fastest and slowest
 * Distance Scope: The histogram will show you the pace data for the last x miles or kilometers.
 * Distance Units: This defines what units are to be used with the distance scope above. Feel free to mix and match metric and imperial. It doesn't matter which are the system units.
 * Show Min/Max: This option will show the min and max pace that the graph is constrained by.
-
-*****NOTE*****
-Changes cannot be made to [Distance Scope] and [Distance Units] settings during an activity. To have the data field reflect the new settings, exit out of the activity screen completely, and relaunch.
 
 #### Notes
 Changes cannot be made to [Distance Scope] and [Distance Units] settings during an activity. To have the data field reflect the new settings, exit out of the activity screen completely, and relaunch.
