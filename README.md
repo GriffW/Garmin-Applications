@@ -150,7 +150,7 @@ Stopwatch + Timer gives you both tools in one functional package.
 	- Normal [P0]: This behaves the exact same as the app has in the past. The real changes are in the following states.
 	- Low Power [P1]: The stopwatch now updates every second, as opposed to every tenth of a second. The time recorded is still accurate to the millisecond.
 	- Ultra Low Power [P2]: The stopwatch and timer now updates every minute. The timer still ends at the original time set.
-	- Endurance [P3]: The stopwatch does not update until a button is pressed. The timer updates every minute, and still ends at the original time set.
+	- Endurance [P3]: The stopwatch does not update until a button is pressed. The timer does not update, but still ends at the original time set.
 
 - Device Info: Shows phone connection status, notification count, do not disturb status, alarm count, the current CIQ SDK  version number, and the current battery level. This screen updates when the enter button is pressed.
 
