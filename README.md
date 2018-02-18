@@ -49,26 +49,24 @@ GPS Metrics App
 [Store Link](https://apps.garmin.com/en-US/apps/e3d33aa5-7d07-4670-a754-9ad7de50562e)
 
 ### Application Info
-GPS Metrics shows you, at a glance, your current direction, heading, speed, g-force, and Coordinates. 
+GPS Metrics shows you, at a glance, your current direction, track (movement heading), speed, g-force, and Coordinates. 
   
 All measures are accessed from the same screen. 
 The units of altitude, coordinates, and speed can be chosen. 
 There is a quick unit charger, as well as the option to show the UTC time instead of the local time. 
-The current metrics can be saved for later.
-These are configurable in the in-app menu, which is accessed by the device menu button (many devices use the long press on the up button as the menu button).  
+These are configurable in Settings in Garmin Mobile or Garmin Express. 
  - The elevation options are: meters (m), feet (ft), and miles (mi). 
  - The coord options are: degree (DEG), degree minutes (DEG MIN), degree minutes seconds (DEG MIN SEC), and military grid reference system(MGRS) 
  - The speed options are: meters per second (m/s), kilometers per hour (km/h), miles per hour (mph), knots (knots), and mach number (mach). 
  - The select button functions as a unit changer. It can switch through all of the units of a specific field (altitude, coords, or speed). 
  - The "g force" only takes into account acceleration in the direction of your heading. The actual g force you might be experiencing might be higher. 
- - The save option is accessed from the in-app menu. This allows to metrics to be saved to the device, and he later viewed in Garmin Express, or the Garmin Mobile app.
   
 I have published an widget version of this widget than can be found here: 
 https://apps.garmin.com/en-US/apps/42155349-ebb2-45c3-930e-51bbea912fa6 
   
 #### Layout
 - Cardinal Direction (Top Right) 
-- Heading (Top Right) 
+- Track (Top Right)  
 - Altitude (Top Left) 
 - Speed (Bottom Left) 
 - Acceleration (Bottom Right) 
@@ -76,6 +74,12 @@ https://apps.garmin.com/en-US/apps/42155349-ebb2-45c3-930e-51bbea912fa6
 - Time (Top) 
   
 ### Version History
+Version 2.1.0 - 2/17/2018
+- [Added] support for D2 Charlie, Descent Mk1, and FR645
+- [Modified] Reverted back to getting altitude and heading from GPS exclusivly
+- [Modified] Significant code refactorization
+- [Modified] Minor UI changes
+
 Version 2.0.2 - 7/16/2017
 - [Added] FR935 support
 
@@ -509,7 +513,7 @@ GPS Metrics
 [Store Link](https://apps.garmin.com/en-US/apps/42155349-ebb2-45c3-930e-51bbea912fa6)
 
 ### Application Info
-GPS Metrics shows you, at a glance, your current direction, heading, speed, g-force, and Coordinates. 
+GPS Metrics shows you, at a glance, your current direction, track (movement heading), speed, g-force, and Coordinates. 
   
 All measures are accessed from the same screen. 
 The units of altitude, coordinates, and speed can be chosen. 
@@ -526,7 +530,7 @@ https://apps.garmin.com/en-US/apps/e3d33aa5-7d07-4670-a754-9ad7de50562e
 
 #### Layout
 - Cardinal Direction (Top Right) 
-- Heading (Top Right) 
+- Track (Top Right) 
 - Altitude (Top Left) 
 - Speed (Bottom Left) 
 - Acceleration (Bottom Right) 
@@ -534,6 +538,12 @@ https://apps.garmin.com/en-US/apps/e3d33aa5-7d07-4670-a754-9ad7de50562e
 - Time (Top) 
 
 ### Version History
+Version 2.1.0 - 2/17/2018
+- [Added] support for D2 Charlie, Descent Mk1, and FR645
+- [Modified] Reverted back to getting altitude and heading from GPS exclusivly
+- [Modified] Significant code refactorization
+- [Modified] Minor UI changes
+
 Version 2.0.1 - 6/19/2017
 - [Fixed] no Fenix heading data 
 
