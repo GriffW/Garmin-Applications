@@ -54,7 +54,7 @@ GPS Metrics shows you, at a glance, your current direction, track (movement head
 All measures are accessed from the same screen. 
 The units of altitude, coordinates, and speed can be chosen. 
 There is a quick unit charger, as well as the option to show the UTC time instead of the local time. 
-These are configurable in Settings in Garmin Mobile or Garmin Express. 
+These settings are configurable in the in-app menu, which is accessed by the device menu button (many devices use the long press on the up button as the menu button).
  - The elevation options are: meters (m), feet (ft), and miles (mi). 
  - The coord options are: degree (DEG), degree minutes (DEG MIN), degree minutes seconds (DEG MIN SEC), and military grid reference system(MGRS) 
  - The speed options are: meters per second (m/s), kilometers per hour (km/h), miles per hour (mph), knots (knots), and mach number (mach). 
