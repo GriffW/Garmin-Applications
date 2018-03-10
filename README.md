@@ -74,6 +74,9 @@ https://apps.garmin.com/en-US/apps/42155349-ebb2-45c3-930e-51bbea912fa6
 - Time (Top) 
   
 ### Version History
+Version 2.1.1 - 3/9/2018
+- [Removed] VA3 support, it was added by accident
+
 Version 2.1.0 - 2/17/2018
 - [Added] support for D2 Charlie, Descent Mk1, and FR645
 - [Modified] Reverted back to getting altitude and heading from GPS exclusivly
