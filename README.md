@@ -404,7 +404,7 @@ The Digital Analog is the most customizable style.
 - Icons for the step goal, or batter can be turned too.
 - The battery and step labels can be turned off, and their color can be changed.
 - The date (Date format: [Day of Week] [Month] [Date]) sits below, and the color can be changed.
-- Alternate formats are [Day of Week] [Date] [Month] and [Date] [Day of Week] [Month]. 
+- Alternate formats are [Day of Week] [Month] [Date], [Day of Week] [Date] [Month], [Date] [Day of Week] [Month], [Day of Week] [Date], [Date] [Day of Week].
 
 The Performance Analog takes a lot of points from the new Cadillac Cluster, and integrates it into this style.
 - The top holds the status bar, which shows Bluetooth, notification, and alarm status.
@@ -414,6 +414,8 @@ The Performance Analog takes a lot of points from the new Cadillac Cluster, and 
 
 The watch hand color can also be changed, and the second hand color can be changed or disabled.
 
+More info can be found here: https://github.com/GriffW/Garmin-Applications#simple-info-analog
+
 #### ATTENTION
 - There are plans to add the new always on second hand (FOR SUPPORTED DEVICES). It will take more time than expected to implement this feature, it is not in this 1.1.0 patch.
 
@@ -421,6 +423,15 @@ The watch hand color can also be changed, and the second hand color can be chang
 
 
 ### Version History
+Version 2.0.0 - 4/29/2018
+- [Added] Support for 1Hz always on second hand (for supported devices)
+- [Modified] Drastically reduced watchface app size
+- [Modified] Rewritten entire watchface
+- [Added] Support for VA3
+- [Added] Support for FR645(M)
+- [Added] Support for Descent MK1
+- [Added] Two new date formats: [Day of Week] [Date], [Date] [Day of Week].
+
 Version 1.1.1 - 7/18/2017
 - [Modified] Background system: The app size is much larger than it was in 1.1.0, but this allows for much smoother performance of loading and unloading of the face, on 1.0 devices (FR230, Fenix 3, etc.). Connect IQ 2.0 devices should not be affected by this change, besides the larger download size.
 
