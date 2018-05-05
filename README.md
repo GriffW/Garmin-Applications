@@ -423,6 +423,11 @@ More info can be found here: https://github.com/GriffW/Garmin-Applications#simpl
 
 
 ### Version History
+Version 2.0.1 - 5/5/2018
+- [Fixed] Issue where minutes hands would not be shown during specific times.
+- [Fixed] Issue where Black VA3 devices did not display elements correctly
+- [Fixed] Reduced memory usage drastically to fix rare instances of memory crashes
+
 Version 2.0.0 - 4/29/2018
 - [Added] Support for 1Hz always on second hand (for supported devices)
 - [Modified] Drastically reduced watchface app size
