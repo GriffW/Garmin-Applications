@@ -20,7 +20,7 @@ Launched Applications
 * [Modern Digital](https://github.com/GriffW/Garmin-Applications#modern-digital)					
 * [Simple Info Analog](https://github.com/GriffW/Garmin-Applications#simple-info-analog)					
 * [Simple Info Face](https://github.com/GriffW/Garmin-Applications#simple-info-face)
-* [Tach Face](https://apps.garmin.com/en-US/apps/2dc815d7-9243-4345-8c9e-dc8b13ef6cc8)
+* [Tach Face](https://github.com/GriffW/Garmin-Applications#tach-face)
 
 ### Widgets	
 * [GPS Metrics](https://github.com/GriffW/Garmin-Applications#gps-metrics)						
@@ -544,7 +544,7 @@ Date:
 - The date (Date format: [Day of Week] [Month] [Date]) sits below, and the color can be changed.
 - Alternate formats are [Day of Week] [Month] [Date], [Day of Week] [Date] [Month], [Date] [Day of Week] [Month], [Day of Week] [Date], [Date] [Day of Week].
 
-More info can be found here: https://github.com/GriffW/Garmin-Applications#simple-info-analog
+More info can be found here: https://github.com/GriffW/Garmin-Applications#tach-face
 
 HR:
 - This value can be hidden, and the color can be changed
