@@ -19,7 +19,8 @@ Launched Applications
 ### Watch Faces
 * [Modern Digital](https://github.com/GriffW/Garmin-Applications#modern-digital)					
 * [Simple Info Analog](https://github.com/GriffW/Garmin-Applications#simple-info-analog)					
-* [Simple Info Face](https://github.com/GriffW/Garmin-Applications#simple-info-face) 					
+* [Simple Info Face](https://github.com/GriffW/Garmin-Applications#simple-info-face)
+* [Tach Face](https://apps.garmin.com/en-US/apps/2dc815d7-9243-4345-8c9e-dc8b13ef6cc8)
 
 ### Widgets	
 * [GPS Metrics](https://github.com/GriffW/Garmin-Applications#gps-metrics)						
@@ -465,6 +466,7 @@ Version 1.0.1 - 8/17/2016
 Version 1.0.0 - 8/7/2016
 - Initial Launch
 
+
 Simple Info Face
 -
 [Store Link](https://apps.garmin.com/en-US/apps/91014c51-68a9-49b0-b3b3-00db139cfd9b#0)
@@ -525,6 +527,46 @@ Version 1.1 - 3/15/2016
 
 Version 1.0 - 3/7/2016
 - Initial Launch
+
+
+Tach Face
+-
+[Store Link](https://apps.garmin.com/en-US/apps/2dc815d7-9243-4345-8c9e-dc8b13ef6cc8)
+
+### Application Info
+Top Tach:
+- Shows visual display of seconds
+- redline style can be disabled to allow for a single color
+- the gray background can be disabled
+- the tach color can be changed
+
+Date:
+- The date (Date format: [Day of Week] [Month] [Date]) sits below, and the color can be changed.
+- Alternate formats are [Day of Week] [Month] [Date], [Day of Week] [Date] [Month], [Date] [Day of Week] [Month], [Day of Week] [Date], [Date] [Day of Week].
+
+More info can be found here: https://github.com/GriffW/Garmin-Applications#simple-info-analog
+
+HR:
+- This value can be hidden, and the color can be changed
+
+AM/PM:
+- This value can be hidden, and the color can be changed
+
+Status Icons:
+- The color can be changed
+
+Battery Bar:
+- The color can be changed of the bar and the battery value
+- The color of the bar below 20% can also be changed
+
+Steps Bar:
+- The color can be changed of the bar and the steps count
+- The color of the bar below 20% can also be changed
+
+### Version History
+Version 1.0.0 - 5/19/2016
+- Initial Launch
+
 
 # Widgets
 GPS Metrics
