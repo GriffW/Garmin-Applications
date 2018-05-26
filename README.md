@@ -163,6 +163,9 @@ Stopwatch + Timer gives you both tools in one functional package.
 - Device Info: Shows phone connection status, notification count, do not disturb status, alarm count, the current CIQ SDK  version number, and the current battery level. This screen updates when the enter button is pressed.
 
 ### Version History
+Version 2.1.3 - 5/26/2018
+- [Fixed] Timer starts too early
+
 Version 2.1.2 - 5/26/2018
 - [Fixed] Resuming a paused timer doesnt always works
 
