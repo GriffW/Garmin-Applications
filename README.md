@@ -54,8 +54,8 @@ GPS Metrics shows you, at a glance, your current direction, track (movement head
   
 All measures are accessed from the same screen. 
 The units of altitude, coordinates, and speed can be chosen. 
-There is a quick unit charger, as well as the option to show the UTC time instead of the local time. 
-These settings are configurable in the in-app menu, which is accessed by the device menu button (many devices use the long press on the up button as the menu button).
+There is a quick unit charger, as well as the option to show the UTC time instead of the local time. Degrees and compass direction can be swapped out for mils instead.
+These options are configurable from inside of the app using the menu button (some watches menu's are accessed by holding the the up button).
  - The elevation options are: meters (m), feet (ft), and miles (mi). 
  - The coord options are: degree (DEG), degree minutes (DEG MIN), degree minutes seconds (DEG MIN SEC), and military grid reference system(MGRS) 
  - The speed options are: meters per second (m/s), kilometers per hour (km/h), miles per hour (mph), knots (knots), and mach number (mach). 
@@ -75,6 +75,10 @@ https://apps.garmin.com/en-US/apps/42155349-ebb2-45c3-930e-51bbea912fa6
 - Time (Top) 
   
 ### Version History
+Version 2.1.2 - 6/17/2018
+- [Added] mils as an alternative to degrees+direction
+- [Fixed] UTC not accounting for half hour time zone changes
+
 Version 2.1.1 - 3/9/2018
 - [Removed] VA3 support, it was added by accident
 
@@ -584,8 +588,8 @@ GPS Metrics shows you, at a glance, your current direction, track (movement head
   
 All measures are accessed from the same screen. 
 The units of altitude, coordinates, and speed can be chosen. 
-There is a quick unit charger, as well as the option to show the UTC time instead of the local time. 
-These are configurable in Settings in Garmin Mobile or Garmin Express. 
+There is a quick unit charger, as well as the option to show the UTC time instead of the local time. Degrees and compass direction can be swapped out for mils instead.
+These options are configurable from inside of the app using the menu button (some watches menu's are accessed by holding the the up button).
  - The elevation options are: meters (m), feet (ft), and miles (mi). 
  - The coord options are: degree (DEG), degree minutes (DEG MIN), degree minutes seconds (DEG MIN SEC), and military grid reference system(MGRS) 
  - The speed options are: meters per second (m/s), kilometers per hour (km/h), miles per hour (mph), knots (knots), and mach number (mach). 
@@ -605,6 +609,11 @@ https://apps.garmin.com/en-US/apps/e3d33aa5-7d07-4670-a754-9ad7de50562e
 - Time (Top) 
 
 ### Version History
+Version 2.1.1 - 6/17/2018
+- [Added] mils as an alternative to degrees+direction
+- [Fixed] UTC not accounting for half hour time zone changes
+- [Added] Brought menu from the app version to the widget version
+
 Version 2.1.0 - 2/17/2018
 - [Added] support for D2 Charlie, Descent Mk1, and FR645
 - [Modified] Reverted back to getting altitude and heading from GPS exclusivly
