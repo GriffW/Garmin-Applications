@@ -75,6 +75,9 @@ https://apps.garmin.com/en-US/apps/42155349-ebb2-45c3-930e-51bbea912fa6
 - Time (Top) 
   
 ### Version History
+Version 2.1.3 - 6/18/2018
+- [Fixed] Properly added support for Mils in the menu
+
 Version 2.1.2 - 6/17/2018
 - [Added] mils as an alternative to degrees+direction
 - [Fixed] UTC not accounting for half hour time zone changes
@@ -609,6 +612,9 @@ https://apps.garmin.com/en-US/apps/e3d33aa5-7d07-4670-a754-9ad7de50562e
 - Time (Top) 
 
 ### Version History
+Version 2.1.2 - 6/18/2018
+- [Fixed] Properly added support for Mils in the menu
+
 Version 2.1.1 - 6/17/2018
 - [Added] mils as an alternative to degrees+direction
 - [Fixed] UTC not accounting for half hour time zone changes
