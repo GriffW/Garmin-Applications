@@ -612,6 +612,9 @@ https://apps.garmin.com/en-US/apps/e3d33aa5-7d07-4670-a754-9ad7de50562e
 - Time (Top) 
 
 ### Version History
+Version 2.1.3 - 6/18/2018
+- [Fixed] Crash on tones toggle
+
 Version 2.1.2 - 6/18/2018
 - [Fixed] Properly added support for Mils in the menu
 
