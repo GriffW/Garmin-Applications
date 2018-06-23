@@ -440,6 +440,10 @@ More info can be found here: https://github.com/GriffW/Garmin-Applications#simpl
 
 
 ### Version History
+Version 2.0.2 - 6/23/2018
+- [Fixed] Date, battery, and steps clipping on VA3
+- [Added] Support for VA3M and F5+ series
+
 Version 2.0.1 - 5/5/2018
 - [Fixed] Issue where minutes hands would not be shown during specific times.
 - [Fixed] Issue where Black VA3 devices did not display elements correctly
