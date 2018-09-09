@@ -440,6 +440,10 @@ More info can be found here: https://github.com/GriffW/Garmin-Applications#simpl
 
 
 ### Version History
+Version 2.0.3 - 9/9/2018
+- [Fixed] issue with last second hand artifact
+- [Fixed] notification misalignment with no alarms active
+
 Version 2.0.2 - 6/23/2018
 - [Fixed] Date, battery, and steps clipping on VA3
 - [Added] Support for VA3M and F5+ series
