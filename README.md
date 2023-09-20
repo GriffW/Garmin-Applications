@@ -23,7 +23,8 @@ Launched Applications
 * [Tach Face](https://github.com/GriffW/Garmin-Applications#tach-face)
 
 ### Widgets	
-* [GPS Metrics](https://github.com/GriffW/Garmin-Applications#gps-metrics)						
+* [GPS Metrics](https://github.com/GriffW/Garmin-Applications#gps-metrics)
+* [Run Log](https://github.com/GriffW/Garmin-Applications#gps-metrics) 					
 
 
 Work Status
@@ -670,4 +671,23 @@ Version 1.1.0 - 5/22/2016
 - Added Knots 
   
 Version 1.0.0 - 4/4/2016 
-- Initial Release 
+- Initial Release
+
+Run Log
+-
+[Store Link](https://apps.garmin.com/en-US/apps/14435ee9-1bd2-4625-8ad1-946e3d72bfc6)
+
+### Application Info
+Ever wanted to take a look at your historical run data on your watch?
+Run log allows you to view information about all saved runs on your watch.
+Take a look at how much you are running in the scope of a week, a month, or even a year.
+Change the view mode in the menu.
+
+Run Log can show you your current weekly and monthly mileage in the glace view.
+The glace view will update automatically as your run.
+
+### Version History
+Version 1.0.0 - 08/11/23
+- initial release
+  
+
