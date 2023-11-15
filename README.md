@@ -25,7 +25,7 @@ Launched Applications
 ### Widgets	
 * [GPS Metrics](https://github.com/GriffW/Garmin-Applications#gps-metrics)
 * [Run Log](https://github.com/GriffW/Garmin-Applications#run-log)
-* [Orientate](https://github.com/GriffW/Garmin-Applications#run-log)				
+* [Orientate](https://github.com/GriffW/Garmin-Applications#orientate)				
 
 
 Work Status
