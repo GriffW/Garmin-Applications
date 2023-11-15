@@ -24,7 +24,8 @@ Launched Applications
 
 ### Widgets	
 * [GPS Metrics](https://github.com/GriffW/Garmin-Applications#gps-metrics)
-* [Run Log](https://github.com/GriffW/Garmin-Applications#gps-metrics) 					
+* [Run Log](https://github.com/GriffW/Garmin-Applications#run-log)
+* [Orientate](https://github.com/GriffW/Garmin-Applications#run-log)				
 
 
 Work Status
@@ -690,4 +691,15 @@ The glace view will update automatically as your run.
 Version 1.0.0 - 08/11/23
 - initial release
   
+Orientate
+-
+[Store Link]()
 
+### Application Info
+Ever wanted an attitude indicator on your wrist? Or wanted to better understand the terrain that you find yourself in.
+Orientate formats your watch's sensors into an intuitive format, pioneered by the aviation world, bringing a type of attitude indicator to your wrist.
+You can find your current pitch and roll value, or discern where the horizon if you find yourself update down or in a precarious position.
+
+### Version History
+Version 1.0.0 - 11/20/23
+- initial release
